@@ -17,14 +17,14 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project root `src/` directory
-- [ ] T002 Create `src/models/` directory
-- [ ] T003 Create `src/services/` directory
-- [ ] T004 Create `src/cli/` directory
-- [ ] T005 Create `tests/` directory
-- [ ] T006 Create `tests/unit/` directory
-- [ ] T007 Create `tests/integration/` directory
-- [ ] T008 [P] Configure `pytest` setup (e.g. create `pytest.ini` if needed, although usually not necessary for basic setup)
+- [X] T001 Create project root `src/` directory
+- [X] T002 Create `src/models/` directory
+- [X] T003 Create `src/services/` directory
+- [X] T004 Create `src/cli/` directory
+- [X] T005 Create `tests/` directory
+- [X] T006 Create `tests/unit/` directory
+- [X] T007 Create `tests/integration/` directory
+- [X] T008 [P] Configure `pytest` setup (e.g. create `pytest.ini` if needed, although usually not necessary for basic setup)
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 
@@ -32,15 +32,15 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T009 Define `Task` class in `src/models/task.py` (id, description, completed: bool)
-- [ ] T010 Implement `TodoService` class in `src/services/todo_service.py` with methods for:
+- [X] T009 Define `Task` class in `src/models/task.py` (id, description, completed: bool)
+- [X] T010 Implement `TodoService` class in `src/services/todo_service.py` with methods for:
     - Adding tasks (generates unique IDs)
     - Retrieving all tasks
     - Retrieving a single task by ID
     - Updating task description
     - Marking task as complete/incomplete
     - Deleting tasks
-- [ ] T011 Implement unit tests for `TodoService` in `tests/unit/test_todo_service.py` to cover all service methods.
+- [X] T011 Implement unit tests for `TodoService` in `tests/unit/test_todo_service.py` to cover all service methods.
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 

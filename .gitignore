@@ -1,0 +1,46 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+lib/
+lib64/
+bin/
+include/
+share/
+*.egg-info/
+.installed.cfg
+*.egg
+/htmlcov/
+.nox/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Environment variables
+.env
+.venv
+
+# Specific to Python Todo CLI
+src/
+tests/
+specs/
+history/
