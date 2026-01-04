@@ -52,8 +52,8 @@
 
 ### Implementation for User Story 1
 
-- [ ] T012 [US1] Implement `add` command parsing and execution logic in `src/cli/main.py` using `argparse`. This will call the `TodoService.add_task` method.
-- [ ] T013 [US1] Implement integration tests for the `add` command in `tests/integration/test_cli.py`, verifying task creation and output.
+- [X] T012 [US1] Implement `add` command parsing and execution logic in `src/cli/main.py` using `argparse`. This will call the `TodoService.add_task` method.
+- [X] T013 [US1] Implement integration tests for the `add` command in `tests/integration/test_cli.py`, verifying task creation and output.
 
 ## Phase 4: User Story 2 - View the list of tasks (Priority: P1)
 
